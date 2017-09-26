@@ -1,0 +1,17 @@
+html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	/*overflow: hidden;*/
+    	}
+ul li {
+	list-style: none;
+}
+body {
+	font-size: 12px;
+	overflow: hidden;
+}
+#section_header ul li a {
+			line-height: 44px;
+			font-size: 18px;
+		}
