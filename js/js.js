@@ -1,5 +1,13 @@
 $(function(){
+	
 	$('#fullpage').fullpage({
+		anchors: ['1', '2', '3', '4','5'],
+		menu: '#pagefull',
+		
+		
+
+
+//		controlArrowColor:red,
 		
 //		图片上下小点位置
 //		navigation:true,
@@ -27,4 +35,9 @@ $(function(){
 
 
     });
+    
+    setInterval(function(){
+    	$.fn.fullpage.moveSlideRight();
+//  	$.fn.fullpage.fadingEffect(true);
+    },3000)
 })
