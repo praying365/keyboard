@@ -39,5 +39,5 @@ $(function(){
     setInterval(function(){
     	$.fn.fullpage.moveSlideRight();
 //  	$.fn.fullpage.fadingEffect(true);
-    },3000)
+    },4000)
 })
