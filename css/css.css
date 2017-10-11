@@ -1,7 +1,8 @@
-html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a {
+html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,p {
     	margin: 0;
     	padding: 0;
     	border: 0;
+    	font-family: "microsoft yahei";
     	/*overflow: hidden;*/
     		}
 ul li {

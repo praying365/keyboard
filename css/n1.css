@@ -1,7 +1,8 @@
-html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,hr {
+html,body,div,ul,ul li,h1,h2,h3,h4,h5,h6,video,img,a,hr,p,footer {
     	margin: 0;
     	padding: 0;
     	border: 0;
+    	font-family: "microsoft yahei";
     	/*overflow: hidden;*/
     	}
 ul li {
@@ -10,6 +11,9 @@ ul li {
 body {
 	/*height: 3500px;*/
 	font-size: 12px;
+	width: 100%;
+	/*height: auto;*/
+	/*overflow: hidden;*/
 	
 }
 #section_header ul li a {
@@ -18,7 +22,8 @@ body {
 		}
 		
 
-.main img {
+main  {
+	padding-bottom: 40px;
 	
 }
 
@@ -65,29 +70,87 @@ main .hr hr {
 }
 
 main .con {
-	/*height: 300px;*/
+	height: 400px;
 	text-align: center;
 	padding-bottom: 70px;
+	overflow: hidden;
 	
 }
+main .con img {
+	
+	padding: 5%;
+	padding-bottom: 0;
+	
+}
+
+main .con:hover {
+	background: chocolate;
+	color: #FFFFFF;
+}
+
 main .con .t {
+	padding: 10% 10%;
 	
-	padding: 30px 10%;
-	
+}
+main .con .t h3 {
+	/*line-height: 50px;*/
+}
+main .con .t p {
+	/*line-height: 350px;*/
+}
+
+main .row5 {
+	margin-bottom: 60px;
+}
+main .price {
+	height: 350px;
+	text-align: center;
+	/*border: 1px solid #000000;*/
+}
+main .price img {
+	/*line-height: 350px;*/
+}
+
+main .price div:last-child {
+	padding-top: 3%;
 }
 
 
-
-
-
-.footer {
+footer {
 	clear: both;
 	/*position: fixed;*/
 	width: 100%;
-	line-height: 50px;
+	margin: 0 auto;
+	background: #252a2c;
+	bottom: 0;
+	
+}
+
+.footer {
+	width: 85%;
+	color: #FFFFFF;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.footer .row {
+	padding-top: 40px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer .copy {
+	width: 100%;
+	height: 35px;
 	text-align: center;
 	bottom: 0;
 	font-size: 12px;
 	color: white;
-	background: teal;
+}
+
+
+@media only screen and (max-width: 750px) {
+	.row2 , .row4 {
+		display: none;
+	}
+	
 }
